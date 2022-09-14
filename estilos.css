@@ -1,0 +1,67 @@
+/*
+
+SELECTORES:
+
+- Tipo. -> a { color: red; }
+- Clase. -> .nombre-clase { color: blue; } / class="nombre-clase" (Se usa caundo se desea repetir el estilo CSS en varios elementos (reutilizar))
+- Id. -> #nombre-id { color: blue; } / id="nombre-id" (Se usa caundo se desea aplicar el estilo CSS en un solo elemento (no reutlizar))
+- Universal.
+- Atributo.
+
+HERARQUIA DE SELECTORES:
+
+1. ID = 100
+2. Class = 10
+3. Etiqueta = 1
+
+TIPOS DE COLORES:
+
+1. Nombre del color -> blue
+2. Hexadecimal -> #CCCCCC
+3. RGB -> (0 = menor intensidad, 255 = mayor intensidad) -> rgb(0, 255, 100)
+
+
+text-align: center; (Se usa para centrar texto)
+background: blue; (Se usa para poner un color de fondo)
+color: green; (Se usa para dar el color de la fuente)
+font-size: 22px; (Se usa para dar el tamaño de la fuente)
+width: 80%; (Se usa para indicar el tamaño que debe tener un elemento en la pantalla (tamaño de ancho))
+height: 50%; (Se usa para indicar el tamaño que debe tener un elemento en la pantalla (tamaño de alto))
+padding: 2px; (Se usa para ajustar el margen interno de un elemento)
+margin: 5px; (Se usa para ajustar el margen externo de un elemento)
+font-style: italic; (Se usa para poner texto en italica)
+display: inline-block; (Se usa para que los elementos ocupen solo el espacio que necesita su contenido. Por ejemplo las listas no ordenadas traen por defecto la propiedad display: block esto quiere decir, que este elemento ocupará todo el espacio disponible tanto en ancho como en alto así no lo necesite, o así no lo este ocupando todo realmente)
+vertical-align: top (Se usa para alinear elementos de arriba hacía abajo, las ul por defecto, si una foto es mas grande se alinea hacia el abajo)
+margin-right: 15%; (Se usa para aplicar margen al lado derecho)
+padding-left: 30px; (Se usa para aplicar margen interior a el lado izquierdo)
+background-color: #BBBBBB; (Se usa para poner color de fondo)
+display: inline; (Se usa para que un elemento ocupe solo el espacio que realmente necesite)
+text-transform: uppercase; (Se usa para convertir el texto a mayusculas)
+font-weight: bold; (Se usa para convertir el texto a negrilla, o para configurar el peso de la funte)
+text-decoration: none; (Se usa para quitar el subrayado y el formato que trae por defecto la etiqueta <a> de los enlaces)
+position: static; (es la propiedad que traen por defecto algunos elemengos como la etiqueta nav)
+position: relative (Se usa para mover un elemento desde su punto inicial, desde donde este empieza, permite que yo mueva un elemento a donde yo quiera)
+position: absolute; (Se usa para mover un elemento a donde yo queira, para cambiar la ubicacion del punto inicial del elemento, luego de esta intruccion indico la ubicacion por ejemplo: top 110px; right: 0)
+vertical-align: top; (Se usa para alinear los elementos en la ubicación vertical hacía arriba)
+box-sixing: border-box; (Esta propiedad nos permite incluir el relleno y el borde en el ancho y alto total de un elemento)
+border-color: #000000; (Se usa para asignar el color del borde)
+border-width: 2px; (Se usa para asignar el ancho del borde)
+border-style: solid; (Se usa para asignar el tipo de línea del borde)
+border-radius: 10px; (Se usa para asignar curvatura a los bordes)
+a:hover {color: #C78C19;} (La propiedad hover se usa para capturar el movimiento del mouse (flecha por encima de un elemento, el elemento haga algo, en ese caso cambiar de color))
+li:active {border-color: #088c19;} (La propiedad active se usa para capturar el clicl del mouse (flecha) y tomando el clicl hara algo)
+background: url(media/bg.jpg); (Se usa para poner una imagen de fonto)
+transition: 1s; (Se usa cuando uso la propiedad hover, para indicar el tiempo en el que el boton cambiara de tono, o hara algo al pasar la flecha)
+cursor:pointer; (Se usa para que se active la mano envez de la flecha cunaod la paso por encima de algun elemento)
+transform: scale(1.0); (Se usa para agrandar un elemento cuando paso la lfecha por encima)
+transform: rotate(70deg); (Se usa para que un elemento rote elvalor de ingreso indica los grados del giro)
+
+BUSCAR: posicionamientos static, relative y absolute
+
+NOTA:
+
+- ul (Las listas no ordenadas traen por defecto la propiedad display: block; esto quiere decir que siempre ocuparan el 100% del tamaño de la pantalla (así realmente no lo necesite), esto se puede solucionar por medio de la propiedad display: inline-block;)
+
+- <img src=""/> (Las imágenes traen por defecto la propiedad display: inline-block; esto quiere decir que las imagenes ocupan solamente el tamaño que necesitan)
+
+*/
