@@ -56,6 +56,8 @@ cursor:pointer; (Se usa para que se active la mano envez de la flecha cunaod la 
 transform: scale(1.0); (Se usa para agrandar un elemento cuando paso la lfecha por encima)
 transform: rotate(70deg); (Se usa para que un elemento rote elvalor de ingreso indica los grados del giro)
 font-size: 2em; (Se usa el em para indicar que el tamaño de la fuente por defecto se multiplicara por el tamaño brindado en este caso a el doble del tamaño original que tiene la fuente)
+float: left; (Se usa para que un elemento quede flotando por "encima de la pantalla, en este caso a el lado izquierdo")
+clear: left; (Se usa para que una propiedad no me afecte el resto del documento, buscar!)
 
 BUSCAR: posicionamientos static, relative y absolute
 
