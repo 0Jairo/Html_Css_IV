@@ -10,8 +10,8 @@ SELECTORES:
 
 HERARQUIA DE SELECTORES:
 
-1. ID = 100
-2. Class = 10
+1. ID = 100 (Se sugiere usar cuando se desea alterar el comportamiento)
+2. Class = 10 (Se sugiere usar cuando se desean alterar los estilos)
 3. Etiqueta = 1
 
 TIPOS DE COLORES:
@@ -55,6 +55,7 @@ transition: 1s; (Se usa cuando uso la propiedad hover, para indicar el tiempo en
 cursor:pointer; (Se usa para que se active la mano envez de la flecha cunaod la paso por encima de algun elemento)
 transform: scale(1.0); (Se usa para agrandar un elemento cuando paso la lfecha por encima)
 transform: rotate(70deg); (Se usa para que un elemento rote elvalor de ingreso indica los grados del giro)
+font-size: 2em; (Se usa el em para indicar que el tamaño de la fuente por defecto se multiplicara por el tamaño brindado en este caso a el doble del tamaño original que tiene la fuente)
 
 BUSCAR: posicionamientos static, relative y absolute
 
