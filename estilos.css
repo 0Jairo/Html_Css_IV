@@ -13,6 +13,7 @@ HERARQUIA DE SELECTORES:
 1. ID = 100 (Se sugiere usar cuando se desea alterar el comportamiento)
 2. Class = 10 (Se sugiere usar cuando se desean alterar los estilos)
 3. Etiqueta = 1
+- Buscar que son las pseudoclases
 
 TIPOS DE COLORES:
 
@@ -58,6 +59,9 @@ transform: rotate(70deg); (Se usa para que un elemento rote elvalor de ingreso i
 font-size: 2em; (Se usa el em para indicar que el tamaño de la fuente por defecto se multiplicara por el tamaño brindado en este caso a el doble del tamaño original que tiene la fuente)
 float: left; (Se usa para que un elemento quede flotando por "encima de la pantalla, en este caso a el lado izquierdo")
 clear: left; (Se usa para que una propiedad no me afecte el resto del documento, buscar!)
+line-height: 1.5; (Se usa para poner interlineado en textos, párrafos, etc)
+.items:first-child {} (Se usa para aplicar un estilo al primer elemento de la lista)
+background: linear-gradient(orange, blue); (Se usa para crear colores con gradiente (como degradados), pasando de un color a otro)
 
 BUSCAR: posicionamientos static, relative y absolute
 
