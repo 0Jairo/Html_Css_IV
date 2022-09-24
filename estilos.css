@@ -14,6 +14,10 @@ HERARQUIA DE SELECTORES:
 2. Class = 10 (Se sugiere usar cuando se desean alterar los estilos)
 3. Etiqueta = 1
 - Buscar que son las pseudoclases
+- Buscar selectores avanzados > (para acceder a los hijos de un elemento)
+    + (Para acceder al primer hermano de determinado elemento)
+    ~ (Para acceder a todos los hermanos de determinado elemento)
+    not (Para acceder a los elementos ecepto algunos)
 
 TIPOS DE COLORES:
 
@@ -62,6 +66,9 @@ clear: left; (Se usa para que una propiedad no me afecte el resto del documento,
 line-height: 1.5; (Se usa para poner interlineado en textos, párrafos, etc)
 .items:first-child {} (Se usa para aplicar un estilo al primer elemento de la lista)
 background: linear-gradient(orange, blue); (Se usa para crear colores con gradiente (como degradados), pasando de un color a otro)
+.items:before {content: "★"} (Pseudoelemento: se usa para poner estilos a un elemento especifico, en estecaso antes del elemento item pongo una estrella)
+width: calc(50% - 20px) (Medidas proporcionales se usan bastante en responsive, BUSCAR)
+calcl() (Hacer cuentas, BUSCAR)
 
 BUSCAR: posicionamientos static, relative y absolute
 
