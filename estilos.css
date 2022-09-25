@@ -24,6 +24,7 @@ TIPOS DE COLORES:
 1. Nombre del color -> blue
 2. Hexadecimal -> #CCCCCC
 3. RGB -> (0 = menor intensidad, 255 = mayor intensidad) -> rgb(0, 255, 100)
+4. RGBA -> (Es igual a rgb, con la diferencia que recibe un nuevo parámetro, en donde puede ubicarse la opacidad que tendra el color)
 
 
 text-align: center; (Se usa para centrar texto)
@@ -69,6 +70,11 @@ background: linear-gradient(orange, blue); (Se usa para crear colores con gradie
 .items:before {content: "★"} (Pseudoelemento: se usa para poner estilos a un elemento especifico, en estecaso antes del elemento item pongo una estrella)
 width: calc(50% - 20px) (Medidas proporcionales se usan bastante en responsive, BUSCAR)
 calcl() (Hacer cuentas, BUSCAR)
+opacity: 0.3; (Se usa para dar opacidad, que pase menos luz a un elemento, por ejemplo para que pase menos luz a una foto)
+transition: 400ms; (Se usa cuando por ejemplo coloco opacidad, para indicar como en este ejemplo que la transisión pase a la opacidad sea hecha en una transision de 400 milisegundos)
+box-shadow: 10px 10px 30px 15px #000000; (Se usa para crear sombras al rededor de un elemento, ejeX, ejeY, difuminado de la sombra, largo o expansion de la sombra y el color de la sombra son los 5 parámetros que recibe)
+box-shadow: inset 0px 0px 10px red; (Se usa para crear una sombra interna)
+text-shadow: 2px 2px 10px red; (Se usa para dar sombra a un texto)
 
 BUSCAR: posicionamientos static, relative y absolute
 
