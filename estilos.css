@@ -75,6 +75,7 @@ transition: 400ms; (Se usa cuando por ejemplo coloco opacidad, para indicar como
 box-shadow: 10px 10px 30px 15px #000000; (Se usa para crear sombras al rededor de un elemento, ejeX, ejeY, difuminado de la sombra, largo o expansion de la sombra y el color de la sombra son los 5 parámetros que recibe)
 box-shadow: inset 0px 0px 10px red; (Se usa para crear una sombra interna)
 text-shadow: 2px 2px 10px red; (Se usa para dar sombra a un texto)
+@media query (Se usa para hacer la página responsive)
 
 BUSCAR: posicionamientos static, relative y absolute
 
